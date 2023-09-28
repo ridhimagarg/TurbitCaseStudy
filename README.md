@@ -10,6 +10,12 @@
 
 ---
 
+## This repo is based on Python 3.10
+
+All the requirements are present in the requirements.txt file.
+
+Install requirements using ``pip install -r requirements.txt``
+
 ## Data
 
 * **Time series.** I have choosen this dataset [provided file](data/Turbine1.csv) mainly as a process fluctuating in time.
@@ -72,7 +78,9 @@ This the output from the two approaches -:
 
 1. Regression Based (using other sensors data)
 
-Output of DT Regressor 
+Output of DT Regressor for test data
+
+Test data is sorted according to wind 
 
 ![regression DT](images/DTOthersensors.png)
 
