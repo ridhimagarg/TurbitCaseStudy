@@ -5,7 +5,6 @@
 1. [Data](#data)
 2. [Task - Predicting how many orders Wolt may get in next hour](#task)
 3. [Data Analysis and Modelling](#data-analysis-and-modelling)
-4. [Modelling](#modelling-:rocket:)
 5. [Working with files](#working-with-files)
 
 ---
