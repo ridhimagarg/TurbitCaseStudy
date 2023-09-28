@@ -104,7 +104,7 @@ Data analysis and modelling notebooks contains the main conclusions and answers 
 
 * **[data_analysis](code/data_analysis.ipynb)** - *It contains all analysis*
 
-* **[utility.py](utility.py)** - *It contains utility functions for LSTM Modelling*
+* **[utility.py](code/utility.py)** - *It contains utility functions for LSTM Modelling*
 
 * **[modeling.ipynb](code/modeling.ipynb)** - *It contains the regression modelling analysis*
 
