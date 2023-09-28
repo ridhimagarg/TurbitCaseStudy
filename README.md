@@ -29,6 +29,44 @@
 
 For detail Analysis, go check this [notebook](code/data_analysis.ipynb).
 
+Here are some insights of data -:
+
+1. **Hourly Analysis** :hourglass:
+
+![Hourly Analysis](images/hourly_analysis.png)
+
+2. **Weekly Analysis**
+
+![Weekly Analysis](images/weekday_analysis.png)
+
+3. **Power Fluctuation with time**
+
+![Power Fluctuation](images/power_fluctuation.png)
+
+4. **Power according to Wind**
+
+![Power according Wind](images/power_acc_wind.png)
+
+### Data Processing
+
+* **Data Deriving**
+
+    - Derive some data fron existing columns such as date, hour, weekday from TIMESTAMP
+
+
+### Modelling :rocket:
+
+- Modelling according to only wind data 
+  - Regression Modelling [notebook](code/modeling.ipynb) - Linear Regression, Decision Tree Regressor, Random Forest Regressor.
+- Modelling according to other sensors data 
+  - Regression Modelling
+- Modelling using LSTM [notebook](code/lstm_modelling.ipynb) (utilising time stamp information) for univariate modelling (multivariate can also be performed.)
+
+
+* **Data Preparation for LSTM Modelling**
+
+  - Group data based on date and hour as we are doing hourly prediction.
+
 
 
 ## Theoritical Tasks
