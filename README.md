@@ -6,8 +6,7 @@
 2. [Task - Predicting how many orders Wolt may get in next hour](#task)
 3. [Data Analysis and Modelling](#data-analysis-and-modelling)
 4. [Modelling](#modelling-:rocket:)
-5. [Further Development](#further-development)
-6. [Working with files](#working-with-files)
+5. [Working with files](#working-with-files)
 
 ---
 
@@ -66,6 +65,42 @@ Here are some insights of data -:
 * **Data Preparation for LSTM Modelling**
 
   - Group data based on date and hour as we are doing hourly prediction.
+
+### Evaluation :memo:
+
+This the output from the two approaches -:
+
+1. Regression Based (using other sensors data)
+
+Output of DT Regressor 
+
+![regression DT](images/DTOthersensors.png)
+
+Training set r2 score: 0.9999999999980613
+Test set r2 score: 0.9804207307047448
+
+2. LSTM Modelling (Timestamp information)
+
+Test data predictions using LSTM
+![Multivariate Output](images/lstm_prediction.png)
+
+![Loss functio](images/lstm_loss.png)
+
+-----
+
+## Working with files
+
+For the easy to understand the code, I have utilized jupyter notebooks otherwise can also be converted to python script.
+
+Data analysis and modelling notebooks contains the main conclusions and answers to the question.
+
+* **[data_analysis](code/data_analysis.ipynb)** - *It contains all analysis*
+
+* **[utility.py](utility.py)** - *It contains utility functions for LSTM Modelling*
+
+* **[modeling.ipynb](code/modeling.ipynb)** - *It contains the regression modelling analysis*
+
+* **[lstm_modeling.ipynb](code/lstm_modelling.ipynb)** - *It contains the LSTM modelling analysis*
 
 
 
